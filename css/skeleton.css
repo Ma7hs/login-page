@@ -55,15 +55,25 @@ form {
 }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .container {
     width: 85%;
     padding: 0;
   }
+
+  .card{
+    visibility: hidden;
+    color: white;
+  }
+
+  .child-card{
+    visibility: visible;
+  }
+
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
+@media (max-width: 550px) {
   .container {
     width: 80%;
   }
@@ -211,6 +221,17 @@ form {
     margin-left: 52%;
   }
 
+  .card{
+    visibility: hidden;
+    color: white;
+  }
+
+  .child-card{
+    visibility: visible;
+  }
+  
+
+
 }
 
 
@@ -227,16 +248,30 @@ body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   font-family: 'Inter', sans-serif;
-  color: #fff;
+  color: black;
   height: 100vh;
   margin: 0;
   background-image: url(../img/fundo-git.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
+.card {
+  margin: 0.5rem 0 1rem 0;
+  width: 500px;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 70px;
+  height: 700px;
+}
 
 /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */

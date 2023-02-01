@@ -62,6 +62,7 @@ form {
   }
 
   .card{
+    margin-bottom: 20px;
     visibility: hidden;
     color: white;
   }
@@ -75,7 +76,7 @@ form {
   }
 
   .container,
-form {
+  form {
   text-align: center;
   display: initial;
   position: relative;
@@ -248,6 +249,7 @@ form {
 }
 
   .card{
+    margin-bottom: 20px;
     visibility: hidden;
     color: white;
   }

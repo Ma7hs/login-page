@@ -39,6 +39,7 @@
 .container,
 form {
   text-align: center;
+  display: initial;
   position: relative;
   width: 100%;
   max-width: 960px;

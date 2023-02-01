@@ -74,6 +74,17 @@ form {
     visibility: visible;
   }
 
+  .container,
+form {
+  text-align: center;
+  display: initial;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 }
 
 /* For devices larger than 550px */
@@ -224,6 +235,17 @@ form {
   .offset-by-one-half.columns {
     margin-left: 52%;
   }
+
+  .container,
+  form {
+  text-align: center;
+  display: initial;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
   .card{
     visibility: hidden;

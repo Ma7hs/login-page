@@ -5,7 +5,7 @@
 |![](./img/mobile.jpg)|![](./img/loginpage.jpg)|
 |                     |                        |
 
-[Clique aqui](https://ma7hs.github.iologin-page/) para acessar o site!
+[Clique aqui](https://ma7hs.github.login-page/) para acessar o site!
 ---
 ## Sobre 
 
